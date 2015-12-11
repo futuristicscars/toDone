@@ -82,7 +82,7 @@ var app = app || {};
 
 		// Add all items in the **Todos** collection at once.
 		addAll: function () {
-		  this.$('#new-todo').attr('placeholder', 'I dare someone to...?');
+		  this.$('#new-todo').attr('placeholder', 'I dare myself to...?');
 			this.$list.html('');
 			app.todos.each(this.addOne, this);
 		},
